@@ -1,6 +1,6 @@
 # Convergence Frontend Assessment
 
-Requirements: Create a simple web app that accomplishes the following:
+<b>Requirements:</b> Create a simple web app that accomplishes the following:
 
 When the app starts, fetch /photos JSON data from the http://jsonplaceholder.typicode.com website
 
@@ -10,6 +10,6 @@ The photos that are downloaded must be cached so that if the app is terminated, 
 
 Add a button to the screen below the scrollable photo list. Tapping this button will reorder the list in completely random order. Use a recursive function to reorder the list.
 
-Completed using ReactJS
+Completed using <b>ReactJS</b>
 
-Author: Calvin Vu
+<b>Author: Calvin Vu </b>
