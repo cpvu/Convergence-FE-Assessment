@@ -32,8 +32,8 @@ export function Home() {
             submitRequest()
         }     
     }, []);
-    
-    function procssImages() {
+
+    function processImages() {
         return photoCollection?.map((photo, i) => {
             //Retrieve and return photos cached in local storage
             if(imagesLoaded) {
