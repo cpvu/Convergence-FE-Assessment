@@ -32,10 +32,8 @@ export function Home() {
             submitRequest()
         }     
     }, []);
-
-    console.log(photoCollection)
-
-    function processImages() {
+    
+    function procssImages() {
         return photoCollection?.map((photo, i) => {
             //Retrieve and return photos cached in local storage
             if(imagesLoaded) {
